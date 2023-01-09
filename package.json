@@ -1,0 +1,61 @@
+{
+  "name": "sion-website",
+  "description": "Beyond imagine: SION website",
+  "version": "0.1.0",
+  "author": "Dan Radenkovic <dan@radenkovic.org>",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "dev": "gridsome develop",
+    "explore": "gridsome explore",
+    "lint": "eslint src/**/*.js src/**/*.vue --fix"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all",
+    "ie 11"
+  ],
+  "dependencies": {
+    "@gridsome/plugin-critical": "^0.1.6",
+    "@gridsome/plugin-google-analytics": "^0.1.0",
+    "@gridsome/plugin-sitemap": "^0.2.3",
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-yaml": "^0.2.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-manifest": "^0.3.4",
+    "gridsome-plugin-pug": "^0.0.3",
+    "gridsome-plugin-pwa": "^0.0.12",
+    "lodash": "^4.17.15",
+    "mustache": "^4.0.0",
+    "nprogress": "^0.2.0",
+    "vue-typer": "^1.2.0",
+    "vue-waypoint": "^3.2.2",
+    "vueperslides": "^2.8.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jest": "^23.6.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-vue": "^6.1.2",
+    "node-sass": "^4.13.0",
+    "prettier": "^1.19.1",
+    "pug": "^2.0.4",
+    "sass-loader": "^8.0.2",
+    "vue-svg-loader": "^0.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://https://gitlab.com/beyond-imagine/sion-website"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/beyond-imagine/sion-website/issues"
+  }
+}

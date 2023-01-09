@@ -1,0 +1,41 @@
+- id: 0
+  image_url: /images/testimonials/testimonial-intheknow.jpg
+  logo_url: /images/testimonials/logo-intheknow.png
+  text: "We’ve been using Sion company-wide for over 18 months, and it has been an invaluable resource for us. It is an intuitive program that allows us to quickly reconcile our commissions, and it has many convenient features like easy to download invoices, automatically generated agent statements, and customizable reports that empower our company objectives. Sion is thoughtfully tailored to the needs of our industry."
+  author_name: Evan Mustard
+
+- id: 1
+  image_url: /images/testimonials/testimonial-andiamo.jpg
+  logo_url: /images/testimonials/logo-andiamo.png
+  text: "Sion has truly changed the way our company operates! We now have a clear picture of the amount of business we’re doing. The way we can view our data on Sion is so beneficial!"
+  author_name: Dorie Fader Teitelbaum
+  # author_title: Manager, TriBeCa Traveller
+
+
+- id: 2
+  image_url: /images/testimonials/testimonial-destinique.jpg
+  logo_url: /images/testimonials/logo-destinique.png
+  text: "The fact that SION exists and is such an essential tool, it's really helped us with scaling and still feeling connected to one another across remote offices and remote teams."
+  author_name: Heather Mastin
+  #author_title: Manager, TriBeCa Traveller
+
+
+- id: 3
+  image_url: /images/testimonials/testimonial-anthology.jpg
+  logo_url: /images/testimonials/logo-anthology.png
+  text: "Sion has completely revolutionized the way we track financials at Anthology Travel; the clean, simple interface makes it easy to understand the status of key performance indicators like overall YTD sales targets, revenue per client, sales by supplier or property, and outstanding commissions."
+  author_name: Kathleen Sullivan
+
+- id: 4
+  image_url: /images/testimonials/testimonial-infinity.jpg
+  logo_url: /images/testimonials/logo-infinity.png
+  text: "Sion is an amazing commission tracking software! this is leaps and bounds better than anything else I’ve used! Once you input the client’s trip, it does the rest. I can pull up a report that tells me how much commission is due to me for the current year or next year. I can see how much I made in gross sales and the best is that I can track any past due commission payments with a few simple clicks! It makes reconciling my monthly commission checks super easy! It is very efficient and easy to use. Thank you for creating Sion, you have made my life easier!"
+  author_name: Cindi Hanson
+  author_title: Affiliate of M travel
+
+- id: 5
+  image_url: /images/testimonials/testimonial-opendoors.jpg
+  logo_url: /images/testimonials/logo-opendoors.png
+  text: "SION is one of the most revolutionary technology platforms / integrations to affect this industry in the past 15 years. The ability to easily track and mange a wide variety commissions has always been a frustrating hurdle, but with SION that is now easily resolved. The added benefit of being able to quickly and seamlessly extract, and intelligently use data regarding destinations and suppliers has helped completely transform the way we look at and conduct our business."
+  author_name: Michael Lerner
+  # author_title: Manager, TriBeCa Traveller

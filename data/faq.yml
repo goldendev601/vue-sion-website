@@ -1,0 +1,68 @@
+# Fields support markdown
+
+- id: 1
+  question: I forgot my password. How do i reset it?
+  answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+- id: 2
+  question: Where do I add a new employee?
+  answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+here do I add a new employee?"
+  
+- id: 3
+  question: How do I add Finnancial Information for my Supplier Invoices?
+  answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+here do I add a new employee?"
+  
+- id: 4
+  question: Is there a Chat feature if I need help while using SION?
+  answer: ""
+
+- id: 5
+  question: Is SION Web-based? Can I login from anywhere, anytime?
+  answer: ""
+  
+    
+- id: 6
+  question: How do i generate an invoice to send to a Supplier?
+  answer: ""
+  
+      
+- id: 7
+  question: Where can my IC’s see the commission that is owed to them between pay periods?
+  answer: ""
+  
+- id: 8
+  question: Is SION PCI compliant?
+  answer: ""
+  
+- id: 9
+  question: Does the GDS interface with the SION Platform?
+  answer: ""
+
+- id: 10
+  question: Can my Host agent or IC’s see each other’s bookings or client’s info?
+  answer: ""
+  
+- id: 11
+  question: How can I add a booking?
+  answer: ""
+  
+- id: 12
+  question: How can I cancel a booking?
+  answer: ""
+  
+- id: 13
+  question: How can I see if I have been paid for a booking?
+  answer: ""
+
+- id: 14  
+  question: Does SION collect commissions for me?
+  answer: ""
+  
+  
+- id: 15
+  question: Will SION integrate with my back-office?
+  
+- id: 16
+  question: Who do I contact if I need help when using SION?
+  

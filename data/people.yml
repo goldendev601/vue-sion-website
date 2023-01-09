@@ -1,0 +1,23 @@
+- id: 1
+  name: Irving Betesh
+  title: Co-Founder, CEO
+  image_url: "/images/people/irving.jpg"
+  description: CEO of IBC, an upscale membership based travel agency that handles over $20MM in travel.
+
+- id: 2
+  name: Alfons Musry
+  title: Co-Founder, COO
+  image_url: "/images/people/alfons.jpg"
+  description: Responsible for over $30MM in sales at retail to Fortune 500 retailers.
+
+- id: 3
+  name: Mark Nauroth
+  title: Co-Founder, CTO
+  image_url: "/images/people/mark.jpg"
+  description: 10 years of enterprise software development experience in a variety of verticals including finance, construction and entertainment.
+
+- id: 4
+  name: Randy Masters
+  title: Vice President Travel Technology
+  image_url: "/images/people/randy.jpg"
+  description: Over 25 years experience in travel technology industry. Specializing in GDS functionality, APIs, automation data collection and management.

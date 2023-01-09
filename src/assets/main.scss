@@ -1,0 +1,99 @@
+// Required Bootstrap
+@import 'mixins';
+@import "node_modules/bootstrap/scss/utilities";
+@import "node_modules/bootstrap/scss/grid";
+@import "node_modules/bootstrap/scss/buttons";
+@import "node_modules/bootstrap/scss/pagination";
+@import "node_modules/bootstrap/scss/reboot";
+
+// Custom
+@import 'scss/typography';
+
+html {
+  @include media-breakpoint-down(md) { font-size: 16px; }
+
+}
+
+body {
+  overflow-y: scroll; // prevents content moving if there is no content to scroll
+  letter-spacing: -0.1px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  @include media-breakpoint-down(sm) { 
+    font-size: 14px; 
+    margin-top: $header-height-sm;
+  }
+
+}
+
+// COMBAK cleanup
+section {
+  min-height: 30vh;
+  // border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;  
+  padding: $spacer*6 0;
+  @include media-breakpoint-up(lg) { padding: $spacer*3 0; }
+  @include media-breakpoint-up(lm) { padding: $spacer*4 0; }
+  @include media-breakpoint-up(xl) { padding: $spacer*6 0; }
+  @include media-breakpoint-up(2xl) { padding: $spacer*8 0; }
+  @include media-breakpoint-up(3xl) { padding: $spacer*10 0; }
+  @include media-breakpoint-up(4xl) { padding: $spacer*12 0; }
+  @include media-breakpoint-up(5xl) { padding: $spacer*14 0; }
+  @include media-breakpoint-down(lg) { padding: $spacer*3 0; }
+  @include media-breakpoint-down(md) { padding: $spacer*2 0; }
+  @include media-breakpoint-down(sm) { padding: $spacer*2 0; }
+
+}
+
+section.bluescreen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;  
+  padding: 0;
+}
+
+.btn-light {
+  color: map-get($theme-colors, 'primary');
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+// nprogress
+#nprogress .bar {
+  background: map-get($theme-colors, 'primary');
+  height: 2px;
+}
+#nprogress .peg {
+  box-shadow: 0 0 10px map-get($theme-colors, 'primary'), 0 0 5px map-get($theme-colors, 'primary');
+}
+
+//pagination
+
+.pagination {
+  .page-item a {
+    margin-right: $spacer/2;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #8B8B8B;
+    background: change-color(#D8D8D8, $alpha: 0.32);
+    &.active {
+      color: map-get($theme-colors, 'primary');
+      background: change-color(map-get($theme-colors, 'primary'), $alpha: 0.12);
+    }
+  }
+}
+
+// container
+.container {
+  @include media-breakpoint-down(sm) { padding: 0 $spacer*2; }
+
+}

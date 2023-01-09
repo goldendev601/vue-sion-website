@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Linkedin</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Linkedin" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="031-linkedin" fill-rule="nonzero">
+            <rect id="Rectangle" x="0" y="32" width="22" height="68"></rect>
+            <path d="M83.4574545,32.7974545 C83.2225455,32.7232727 83,32.6429091 82.7527273,32.5749091 C82.456,32.5069091 82.1592727,32.4512727 81.8563636,32.4018182 C80.6818182,32.1669091 79.396,32 77.8876364,32 C64.9923636,32 56.8138182,41.3778182 54.1185455,45.0003636 L54.1185455,32 L32,32 L32,100 L54.1185455,100 L54.1185455,62.9090909 C54.1185455,62.9090909 70.8341818,39.6283636 77.8876364,56.7272727 C77.8876364,71.9901818 77.8876364,100 77.8876364,100 L100,100 L100,54.1123636 C100,43.8381818 92.9589091,35.2763636 83.4574545,32.7974545 Z" id="Path"></path>
+            <circle id="Oval" cx="11" cy="11" r="11"></circle>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,48 @@
+- id: basic
+  name: Basic
+  description: For small to midsize agencies with a manual process.
+  value: 50
+  value_info: Per IATA number connected
+  features:
+    - Commission tracking
+    - Customizable reporting
+    - Live currency conversion
+    - CRM features
+    - Auto-generated invoices
+    - Filter by agent
+    - Agent statements
+    - Share your IATA with IC’s
+  button_link: "/contact"
+  
+  
+- id: pro
+  name: Pro
+  description: For small to midsize agencies with an automated process.
+  value: 100
+  value_info: Per IATA number connected
+  features:
+    - Everything in basic plan
+    - GDS integration
+    - Auto-invoicing (dunning)
+    - Auto-reconciliation
+
+  button_link: "/contact"
+  
+  
+- id: enterprise
+  name: Enterprise
+  description: For large agencies or agencies with a lot of independent contractors.
+  title: Let's talk
+  # value: 100
+  value_info: Enhanced admin controls and security settings for large organizations.
+  # features:
+  #   - Unlimited bookings
+  #   - Export Invoices
+  #   - Add unlimited IATA numbers
+  #   - Add unlimited team members
+  feature_description: Reach us at sales@sioncentral.com so we can start building your plan.
+
+  button_link: "/contact"
+  button_class: btn-outline-secondary
+  button_caption: Contact sales team
+  

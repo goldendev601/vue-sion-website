@@ -1,0 +1,88 @@
+# Info https://docs.aws.amazon.com/cli/latest/reference/s3/
+image: node:12.22.7
+
+variables:
+  # AWS_SECRET_ACCESS_KEY AWS_ACCESS_KEY_ID -- Key needs to be set up in GitlabCI
+  AWS_S3_STAGING_BUCKET: sion-public-staging
+  AWS_S3_PRODUCTION_BUCKET: sion-public-production
+  APP_EMAIL: info@sioncentral.com
+  APP_URL: https://app.sioncentral.com
+  STAGING_URL: http://sion-public-staging.s3-website-us-east-1.amazonaws.com
+  PRODUCTION_URL: https://sioncentral.com
+  PUBLIC_DIR: dist
+
+stages:
+  - build
+  - deploy
+
+
+# BUILD STAGE
+build_staging:
+  # type: build
+  stage: build
+  variables:
+    NODE_ENV: production
+    GRIDSOME_APP_VERSION: $CI_COMMIT_SHORT_SHA
+    GRIDSOME_APP_EMAIL: $APP_EMAIL
+    GRIDSOME_APP_URL: $APP_URL
+    GRIDSOME_SITE_URL: $STAGING_URL
+  script:
+    - npm install --production=false # production:false because devDependencies must be installed
+    - npm run build
+  artifacts:
+    paths:
+      - ${PUBLIC_DIR}/
+    expire_in: 1 hour
+  only:
+    - develop
+
+build_production:
+  extends: build_staging
+  variables:
+    GRIDSOME_APP_EMAIL: $APP_EMAIL
+    GRIDSOME_APP_URL: $APP_URL
+    GRIDSOME_SITE_URL: $PRODUCTION_URL
+  only:
+    - master
+
+
+# DEPLOY STAGE
+deploy_staging:
+  # type: deploy
+  stage: deploy
+  image: python:2.7.12
+  variables:
+    BUCKET: $AWS_S3_STAGING_BUCKET
+  script:
+    - pip install awscli
+    - >
+      aws s3 sync
+      ./${PUBLIC_DIR} s3://${BUCKET}
+      --acl public-read
+      --cache-control max-age=604800
+      --exclude "**/*.html"
+      --delete
+    # Cache invalidation (expire html files after 1hr)
+    - >
+      aws s3 cp
+      $PUBLIC_DIR s3://${BUCKET}
+      --acl public-read
+      --recursive
+      --include "**/*.html"
+      --cache-control max-age=3600
+  environment:
+    name: staging
+    url: $STAGING_URL
+  only:
+    - develop # NOTE: this is protected branch
+
+
+deploy_production:
+  extends: deploy_staging
+  variables:
+    BUCKET: $AWS_S3_PRODUCTION_BUCKET
+  environment:
+    name: production
+    url: $PRODUCTION_URL
+  only:
+    - master # NOTE: this is protected branch

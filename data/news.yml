@@ -1,0 +1,78 @@
+- id: 1
+  image_url: /images/press/article-4.jpg
+  author: Businesswire
+  title: SION Raises $3.2 Million in Seed Funding Led by TIA Ventures
+  url: https://www.businesswire.com/news/home/20221207005047/en/SION-Raises-3.2-Million-in-Seed-Funding-Led-by-TIA-Ventures-Debuts-New-Payment-Processing-Service-for-Travel-Advisors
+  type: news
+
+- id: 2
+  image_url: /images/press/article-3.jpg
+  author: Phocuswire
+  title: SION Secure $3.2M to help agents chase commission
+  url: https://www.phocuswire.com/sion-seed-funding-3-m
+  type: news
+
+- id: 3
+  image_url: /images/press/article-2.jpg
+  author: Travel Weekly
+  title: A new payment-processing system tops Sion's plans following seed money infusion
+  url: https://www.travelweekly.com/Travel-News/Travel-Agent-Issues/Sion-plans-after-securing-seed-money
+  type: news
+
+- id: 4
+  image_url: /images/press/article-1.jpg
+  author: Press Release
+  title: SION Raises $3.2 Million in Seed Funding Led by TIA Ventures
+  url: https://sion-onboarding.webflow.io/sion-raises-3-million-in-seed-funding
+  type: news
+
+- id: 5
+  image_url: /images/press/press-5.jpg
+  author: Irving Betesh
+  title: The Opportunity Cost of Tracking & Chasing Travel Agent Commissions
+  url: https://www.linkedin.com/pulse/opportunity-cost-tracking-chasing-travel-agent-irving-betesh/
+  type: news
+
+- id: 6
+  image_url: /images/press/press-4.jpg
+  author: Irving Betesh
+  title: 11 Reasons Being a Travel Advisor is Great…and One Big Reason It’s Not
+  url: https://www.linkedin.com/pulse/11-reasons-being-travel-advisor-greatand-one-big-reason-irving-betesh/
+  type: news
+
+- id: 7
+  image_url: /images/press/press-3.jpg
+  author: Travel Weekly
+  title: New system aims to help advisors track commissions
+  url: https://www.travelweekly.com/Travel-News/Travel-Agent-Issues/New-system-aims-to-help-advisors-track-commissions
+  type: news
+
+- id: 8
+  image_url: /images/press/press-2.jpg
+  author: Insider Travel Report
+  title: Virtuoso Accepts Four Travel Tech Companies Into Incubator Program
+  url: http://www.insidertravelreport.com/virtuoso-accepts-four-travel-tech-companies-into-incubator-program
+  type: news
+
+- id: 9
+  image_url: /images/press/press-1.jpg
+  author: Travel Pulse
+  title: Virtuoso Reveals Its Incubator Class of 2019
+  url: https://www.travelpulse.com/news/host-agency-and-consortia/virtuoso-reveals-its-incubator-class-of-2019.html
+  type: news
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
